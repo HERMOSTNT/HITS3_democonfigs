@@ -1,0 +1,104 @@
+{
+    "Name": "AggregationLayout",
+    "AggregationView": {
+        "Orientation": 0,
+        "ChildControls": [
+            {
+                "$type": "SplitPane",
+                "MinSize": "10%",
+                "Size": "68.8015%",
+                "MaxSize": "70%",
+                "ChildControls": [
+                    {
+                        "$type": "SplitView",
+                        "Orientation": 1,
+                        "ChildControls": [
+                            {
+                                "$type": "SplitPane",
+                                "MinSize": "10%",
+                                "Size": "27.5627%",
+                                "MaxSize": "70%",
+                                "ChildControls": [
+                                    {
+                                        "$type": "DataSource",
+                                        "Source": "Bottle",
+                                        "Variant": 1,
+                                        "ChildControls": [
+                                        ],
+                                        "Index": 0,
+                                        "IsEditable": false
+                                    }
+                                ],
+                                "Index": 0,
+                                "IsEditable": false
+                            },
+                            {
+                                "$type": "SplitPane",
+                                "MinSize": "10%",
+                                "Size": "32.7653%",
+                                "MaxSize": "70%",
+                                "ChildControls": [
+                                    {
+                                        "$type": "DataSource",
+                                        "Source": "Tray",
+                                        "Variant": 1,
+                                        "ChildControls": [
+                                        ],
+                                        "Index": 0,
+                                        "IsEditable": false
+                                    }
+                                ],
+                                "Index": 0,
+                                "IsEditable": false
+                            },
+                            {
+                                "$type": "SplitPane",
+                                "MinSize": "10%",
+                                "Size": "37.7415%",
+                                "MaxSize": "70%",
+                                "ChildControls": [
+                                    {
+                                        "$type": "DataSource",
+                                        "Source": "Shipping case",
+                                        "Variant": 1,
+                                        "ChildControls": [
+                                        ],
+                                        "Index": 0,
+                                        "IsEditable": false
+                                    }
+                                ],
+                                "Index": 0,
+                                "IsEditable": false
+                            }
+                        ],
+                        "Index": 0,
+                        "IsEditable": false
+                    }
+                ],
+                "Index": 0,
+                "IsEditable": false
+            },
+            {
+                "$type": "SplitPane",
+                "MinSize": "10%",
+                "Size": "30.7264%",
+                "MaxSize": "70%",
+                "ChildControls": [
+                    {
+                        "$type": "DataSource",
+                        "Source": "Pallet",
+                        "Variant": 2,
+                        "ChildControls": [
+                        ],
+                        "Index": 0,
+                        "IsEditable": false
+                    }
+                ],
+                "Index": 0,
+                "IsEditable": false
+            }
+        ],
+        "Index": 0,
+        "IsEditable": false
+    }
+}

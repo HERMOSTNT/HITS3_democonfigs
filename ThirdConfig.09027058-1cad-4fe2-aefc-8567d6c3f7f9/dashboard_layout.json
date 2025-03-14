@@ -1,0 +1,36 @@
+{
+    "WidgetConfigs": [
+        {
+            "AutoPosition": false,
+            "MinW": 1,
+            "MaxW": 12,
+            "MinH": 1,
+            "MaxH": 12,
+            "NoResize": false,
+            "NoMove": false,
+            "Locked": false,
+            "Id": "Kpi1-total",
+            "LazyLoad": null,
+            "X": 0,
+            "Y": 0,
+            "W": 2,
+            "H": 3
+        },
+        {
+            "AutoPosition": false,
+            "MinW": 1,
+            "MaxW": 12,
+            "MinH": 1,
+            "MaxH": 12,
+            "NoResize": false,
+            "NoMove": false,
+            "Locked": false,
+            "Id": "Kpi1-no-read",
+            "LazyLoad": null,
+            "X": 2,
+            "Y": 0,
+            "W": 2,
+            "H": 3
+        }
+    ]
+}
